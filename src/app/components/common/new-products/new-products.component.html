@@ -1,0 +1,58 @@
+<div class="container">
+    <!-- Delicious Biscuits & Chews Section -->
+    <div class="section-title">
+        <h4>Delicious Biscuits & Chews</h4>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-sm-6 col-md-6" *ngFor="let product of singleProductsBox">
+            <div class="single-products-item">
+                <div class="products-image">
+                    <a [routerLink]="product.detailsLink" class="d-block">
+                        <img [src]="product.mainImg" alt="Product Image">
+                    </a>
+                </div>
+                <div class="products-content">
+                    <h3><a [routerLink]="product.detailsLink">{{ product.title }}</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Yummy Munchies Sticks Section -->
+    <div class="section-title">
+        <h4>Yummy Munchies Sticks</h4>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-sm-6 col-md-6" *ngFor="let product of singleProductsBox1">
+            <div class="single-products-item">
+                <div class="products-image">
+                    <a [routerLink]="product.detailsLink" class="d-block">
+                        <img [src]="product.mainImg" alt="Product Image">
+                    </a>
+                </div>
+                <div class="products-content">
+                    <h3><a [routerLink]="product.detailsLink">{{ product.title }}</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Easy Grooming Section -->
+    <div class="section-title">
+        <h4>Easy Grooming</h4>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-sm-6 col-md-6" *ngFor="let product of singleProductsBox2">
+            <div class="single-products-item">
+                <div class="products-image">
+                    <a [routerLink]="product.detailsLink" class="d-block">
+                        <img [src]="product.mainImg" alt="Product Image">
+                    </a>
+                </div>
+                <div class="products-content">
+                    <h3><a [routerLink]="product.detailsLink">{{ product.title }}</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+
+
+<!-- Start Partner Area -->
+<section class="partner-area ptb-70 bg-f5f5f5">
+    <img src="assets\img\ezgif.com-gif-maker.gif" alt="Paris" style="width:70%;">
+    <div class="container">
+        <div class="partner-slides">
+            <owl-carousel-o [options]="partnerSlidesOptions">
+                <ng-template carouselSlide *ngFor="let Partner of facilityContent;">
+                    <div class="partner-item">
+                        <a>
+                            <img [src]="Partner.img" alt="image">
+                        </a>
+                    </div>
+                    <div class="products-content">
+                      <h4 style="text-align: center">{{Partner.title}}</h4>
+                    </div>
+                </ng-template>
+            </owl-carousel-o>
+        </div>
+    </div>
+</section>
+<!-- End Partner Area -->

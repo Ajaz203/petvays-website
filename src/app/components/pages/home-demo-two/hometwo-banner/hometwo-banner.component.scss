@@ -1,0 +1,28 @@
+@import "../../home-demo-one/homeone-banner/homeone-banner.component.scss";
+.gradient-overlay {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .cta-btn:hover {
+    background-color: #e63946;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+  }
+  
+  .image-container img {
+    transition: transform 0.5s ease;
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.1);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

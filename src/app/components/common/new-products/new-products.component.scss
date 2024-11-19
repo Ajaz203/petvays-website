@@ -1,0 +1,22 @@
+@import "../upcoming-products/upcoming-products.component.scss";
+.section-title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .single-products-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .products-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
