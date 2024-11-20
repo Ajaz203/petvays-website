@@ -1,1 +1,72 @@
 @import "../upcoming-products/upcoming-products.component.scss";
+/* Styling for the Container */
+.stylish-ui {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    background: #fff;
+}
+
+/* Section Title */
+.section-title {
+    margin-bottom: 20px;
+}
+
+.fancy-heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.underline {
+    width: 100px;
+    height: 4px;
+    background-color: #ff2e63;
+    margin: 10px auto 0;
+    border-radius: 50px;
+}
+
+/* Product Slider Cards */
+.products-slider {
+    margin-top: 20px;
+}
+
+.product-card {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.product-card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-title {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .fancy-heading {
+        font-size: 1.5rem;
+    }
+
+    .product-card {
+        padding: 5px;
+    }
+
+    .product-title {
+        font-size: 0.9rem;
+    }
+}
