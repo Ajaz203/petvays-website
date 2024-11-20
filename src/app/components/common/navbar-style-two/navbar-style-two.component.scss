@@ -1,5 +1,8 @@
 @import "../navbar-style-one/navbar-style-one.component.scss";
-.logo {
-  width: 120px;
-  height: auto;
+
+.circular-logo{
+  border-radius: 9px;
+    border: 1px solid yellow;
+    width: 120px;
+    height: auto;
 }
